@@ -1,0 +1,33 @@
+:root {
+    --bg-light: #F5F5F5;
+    --bg-dark: #1C1C1C;
+    --gold: #DEB841;
+}
+
+div.App {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 75px 1fr 110px;
+    grid-template-areas: "logo header" "navbar content" "footer footer";
+    height: 100vh;
+}
+
+aside.logo {
+    grid-area: logo;
+}
+
+header.header {
+    grid-area: header;
+}
+
+nav.navbar {
+    grid-area: navbar;
+}
+
+main.content {
+    grid-area: content;
+}
+
+footer.footer {
+    grid-area: footer;
+}

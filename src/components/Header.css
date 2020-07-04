@@ -1,0 +1,7 @@
+header.header{
+    background-color: var(--bg-dark);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

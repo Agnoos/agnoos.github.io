@@ -1,0 +1,115 @@
+footer.footer {
+    background-color: var(--bg-dark);
+}
+
+footer.footer ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.footer .align-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.footer ul a {
+    color: var(--bg-light);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-facebook {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-twitter {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-linkedin:hover {
+    color: #2867B2;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-linkedin {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    animation: glitch 1s linear infinite;
+}
+
+.lucas-direitos {
+    color: var(--gold)
+}
+
+.lucas {
+    animation: glow 2s ease-in-out infinite alternate;
+    color: var(--gold);
+}
+
+.lucas:hover {
+    text-decoration: none;
+    color: var(--gold)
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #DEB841;
+    }
+    to {
+        text-shadow: 0 0 30px #DEB841, 0 0 10px #DEB841;
+    }
+}
+
+@keyframes glitch {
+    2%,
+    64% {
+        transform: translate(1px, 0) skew(0deg);
+    }
+    4%,
+    60% {
+        transform: translate(-1px, 0) skew(0deg);
+    }
+    62% {
+        transform: translate(0, 0) skew(3deg);
+    }
+}

@@ -1,0 +1,17 @@
+nav.navbar{
+background-color: var(--bg-light);
+box-sizing: content-box;
+
+border-right: solid 0.5px rgba(0, 0, 0, 0.116);
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+nav.navbar a{
+    text-decoration: none;
+    color: var(--bg-dark);
+}
