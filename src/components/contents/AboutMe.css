@@ -1,0 +1,44 @@
+ul.my-list{
+    color: var(--bg-dark);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.my-list li{
+    border-bottom: solid 1px #1c1c1c3b;
+  
+    padding-right: 4px;
+    margin-top: 4px;
+}
+
+div.card-body ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info{
+    font-size: 0.8rem;
+    color: #1c1c1ca9;
+}
+
+.text-react{
+    color: rgb(0, 174, 255);
+}
+
+.text-vuejs{
+    color: rgb(21, 122, 21);
+}
+.text-bootstrap{
+    color: rgb(78, 0, 78);
+}
+
+.text-node{
+    color: rgb(42, 105, 12);
+}
+
+.img-psd{
+    height: 17px;
+}
+

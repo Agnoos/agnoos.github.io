@@ -15,3 +15,49 @@ nav.navbar a{
     text-decoration: none;
     color: var(--bg-dark);
 }
+
+@media(max-width: 768px){
+
+    nav.navbar{
+        background-color: var(--bg-dark);
+        box-sizing: content-box;
+        
+        border-top: solid 0.5px var(--gold);
+        
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        
+        flex-wrap: nowrap;
+        
+        overflow-y: hidden;
+
+        /* overflow-y: hidden;
+        overflow-x: scroll; */
+
+        padding: 0px;
+        }
+
+    nav.navbar a{
+    text-decoration: none;
+    color: var(--gold);
+    }
+
+    nav.navbar a.active{
+        
+        animation: glow 2s ease-in-out infinite alternate;
+        color: var(--gold);
+    }
+
+
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #DEB841;
+    }
+    to {
+        text-shadow: 0 0 30px #DEB841, 0 0 10px #DEB841;
+    }
+}
