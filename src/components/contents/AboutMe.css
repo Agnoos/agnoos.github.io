@@ -11,7 +11,14 @@ ul.my-list li{
     padding-right: 4px;
     margin-top: 4px;
 }
+.me-card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    
+}
 div.card-body ul{
     display: flex;
     flex-direction: column;
@@ -39,6 +46,14 @@ div.card-body ul{
 }
 
 .img-psd{
-    height: 17px;
+    height: 15px;
+}
+
+.img-p{
+    height: 250px;
+    display: flex;
+}
+.text-justify{
+    margin: 0px;
 }
 
