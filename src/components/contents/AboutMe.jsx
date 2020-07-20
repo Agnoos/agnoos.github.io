@@ -56,7 +56,7 @@ export default props =>
                 <div className="col-12 ">
                     <p className="text-justify">Natural de Ribeirão Pires zona metropolitana de São Paulo sempre tive apreciação a tecnologia, desde muito novo desmontava computadores e máquinas velhas para descobrir como funcionavam. Depois de ganhar meu primeiro video-game, um Super Nintendo em 2007, despertou-se em mim o fascínio por jogos eletrônicos, que só fizera aumentar quando ganhei meu primeiro computador, um Pentium Dual-Core E2140 de 1.0 GHz em 2010.</p>
                     <p className="text-justify">Com 11 anos criei meu primeiro artigo técnico sobre atualizações de Minecraft, no mesmo ano iniciei um canal no Youtube sobre Counter Strike. Todo conteúdo está na web até hoje, e documentam minhas nostalgias.</p>
-                    <p className="text-justify">Mesmo sem acesso a materiais de estudo e computadores de ponta, transitei da minha infância para adolescência estudando tudo que podia estudar, isso formulou e formula boa parte de quem sou, construindo princípios inegociáveis.</p>
+                    {/* <p className="text-justify">Mesmo sem acesso a materiais de estudo e computadores de ponta, transitei da minha infância para adolescência estudando tudo que podia estudar, isso formulou e formula boa parte de quem sou, construindo princípios inegociáveis.</p> */}
                 </div>
 
             </div>
@@ -88,7 +88,7 @@ export default props =>
         <div className="container-fluid mb-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify"><span className="h4">Em</span> 2018 dei início a outro curso técnico também na ETEC de Hortolândia, iria fazer meus 18 anos de idade e estava na hora de me especializar em algo, escolhi a grade de Informática para Internet, onde aprendi a desenvolver programas em C++ e C#, todos os princípios da engenharia da computação, principais tecnologias da web, redes de computadores, entre outros.</p>
+                    <p className="text-justify">Em 2018 dei início a outro curso técnico também na ETEC de Hortolândia, iria fazer meus 18 anos de idade e estava na hora de me especializar em algo, escolhi a grade de Informática para Internet, onde aprendi a desenvolver programas em C++ e C#, todos os princípios da engenharia da computação, principais tecnologias da web, redes de computadores, entre outros.</p>
                     <p className="text-justify">Nosso tcc foi o desenvolvimento de uma plataforma e-commerce, nomeada por nós como Custom Candy, a proposta era melhorar a visibilidade de pequenos comerciantes independentes da cidade. Mesmo que nosso projeto tenha utilizado tecnologias legado da web, foi através dele que colocamos em prática os princípios de uma API, pilares de estilização, templates responsivos, etc.</p>
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
@@ -106,7 +106,7 @@ export default props =>
         <div className="container-fluid mb-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify"><span className="h4">Em</span> 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação, um curso direcionado as tecnologias de desenvolvimento e o manejo de equipes técnicas. Nele também aprendemos sobre métodos gerenciais e governança de TI. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus.</p>
+                    <p className="text-justify">Em 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação, um curso direcionado as tecnologias de desenvolvimento e o manejo de equipes técnicas. Nele também aprendemos sobre métodos gerenciais e governança de TI. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus.</p>
                     <p className="text-justify">Minha equipe ficou em 2°lugar e fomos premiados com um dia VIP com gestores da empresa IBM.</p>
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
