@@ -7,13 +7,14 @@ border-right: solid 0.5px rgba(0, 0, 0, 0.116);
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
 
 }
 
 nav.navbar a{
     text-decoration: none;
     color: var(--bg-dark);
+    font-size: 1.2em;
 }
 
 @media(max-width: 768px){
@@ -42,6 +43,7 @@ nav.navbar a{
     nav.navbar a{
     text-decoration: none;
     color: var(--gold);
+    font-size: 1em;
     }
 
     nav.navbar a.active{

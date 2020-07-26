@@ -14,10 +14,10 @@ export default props =>
                 <Link className="" to="/"><a class="nav-link " >Sobre</a></Link>
             </li>
             <li class="nav-item">
-                <Link className="" to="/projetos"><a class="nav-link">Experiencia</a></Link>
+                <Link className="" to="/projetos"><a class="nav-link">Experiência</a></Link>
             </li>
             <li class="nav-item">
-                <Link className="" to="/portifolio"><a class="nav-link">Portifólio</a></Link>
+                <Link className="" to="/portifolio"><a class="nav-link">Portfólio</a></Link>
             </li>
             <li class="nav-item">
                 <Link className="" to="/hobbies" ><a class="nav-link" >Hobbies</a></Link>
