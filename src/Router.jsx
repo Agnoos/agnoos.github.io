@@ -14,7 +14,7 @@ export default props=>
         <Route exact path='/site/' component={AboutMe}/>
         <Route exact path='/site/hobbies/' component={Hobbies}/>
         <Route exact path='/site/experiencia/' component={MyProjects}/>
-        <Route exact path='/site/portfolio' component={Portifolio}/>
+        <Route exact path='/site/portfolio/' component={Portifolio}/>
         {/* caso qualquer outra coisa seja escrita na url sera redirecionado para / indo para Home  */}
         <Redirect from='*' to='/site/'/>
     </Switch>
