@@ -14,31 +14,35 @@ export default props =>
 
 
 
-        <div class="card col-12 col-md-10 col-xl-7 mx-md-3 mt-md-2">
-            <div class="row no-gutters">
-                <div class="col-md-4 my-md-3 mt-2 col-12">
-                    <img src={me} class="card-img me-card-about " alt="Eu"></img>
-                </div>
-                <div className="col-md-7">
-                    <div className="card-body">
-                        <h4 className="card-title">Lucas Ricardo Lemes</h4>
-                        <ul class=" my-list">
-                            <li class=""><i class="fa fa-child info" aria-hidden="true"></i><span className="info mx-1">Age:</span>20</li>
-                            <li class=""><i class="fa fa-university info"></i><span className="info mx-1">University:</span>PUC-Campinas</li>
-                            <li class=""><i class="fa fa-code info"></i><span className="info mx-1">Level:</span>Junior</li>
-                            <li class=""><i class="fa fa-star info"></i><span className="info mx-1">Stack:</span>
-                                <i class="fab fa-css3 text-primary mx-1" aria-hidden="true"></i>
-                                <i class="fab fa-html5  text-danger mr-1" aria-hidden="true"></i>
-                                <i class="fab fa-js text-warning mr-1" aria-hidden="true"></i>
-                                <i class="fab fa-react text-react mr-1" aria-hidden="true"></i>
-                                <i class="fab fa-vuejs text-vuejs mr-1" aria-hidden="true"></i>
-                                <i class="fab fa-bootstrap text-bootstrap mr-1" aria-hidden="true"></i>
-                                <i class="fab fa-node text-node mr-1" aria-hidden="true"></i>
-                            </li>
-                            <li class=""><i class="fab fa-adobe info"></i><span className="info mx-1">Design:</span><img className="img-psd mb-1" src={psd} alt="psd" /><img className="img-psd mb-1 ml-1" src={camt} alt="psd" /></li>
-                            <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
+        <div className="container">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
+                            <img src={me} class="card-img me-card-about " alt="Eu"></img>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Lucas Ricardo Lemes</h4>
+                                <ul class=" my-list">
+                                    <li class=""><i class="fa fa-child info" aria-hidden="true"></i><span className="info mx-1">Age:</span>20</li>
+                                    <li class=""><i class="fa fa-university info"></i><span className="info mx-1">University:</span>PUC-Campinas</li>
+                                    <li class=""><i class="fa fa-code info"></i><span className="info mx-1">Level:</span>Junior</li>
+                                    <li class=""><i class="fa fa-star info"></i><span className="info mx-1">Stack:</span>
+                                        <i class="fab fa-css3 text-primary mx-1" aria-hidden="true"></i>
+                                        <i class="fab fa-html5  text-danger mr-1" aria-hidden="true"></i>
+                                        <i class="fab fa-js text-warning mr-1" aria-hidden="true"></i>
+                                        <i class="fab fa-react text-react mr-1" aria-hidden="true"></i>
+                                        <i class="fab fa-vuejs text-vuejs mr-1" aria-hidden="true"></i>
+                                        <i class="fab fa-bootstrap text-bootstrap mr-1" aria-hidden="true"></i>
+                                        <i class="fab fa-node text-node mr-1" aria-hidden="true"></i>
+                                    </li>
+                                    <li class=""><i class="fab fa-adobe info"></i><span className="info mx-1">Design:</span><img className="img-psd mb-1" src={psd} alt="psd" /><img className="img-psd mb-1 ml-1" src={camt} alt="psd" /></li>
+                                    <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
 
-                        </ul>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,7 +51,7 @@ export default props =>
 
 
 
-        <div className="container-fluid  mt-2 mb-4">
+        <div className="container  mt-2 mb-4">
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-4">Sobre</h1>
@@ -63,7 +67,7 @@ export default props =>
         </div>
         <hr />
 
-        <div className="container-fluid mb-4">
+        <div className="container mb-4">
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5">Educação</h1>
@@ -85,7 +89,7 @@ export default props =>
             </div>
         </div>
         <hr />
-        <div className="container-fluid mb-4">
+        <div className="container mb-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-xl-8">
                     <p className="text-justify">Em 2018 dei início a outro curso técnico também na ETEC de Hortolândia, iria fazer meus 18 anos de idade e estava na hora de me especializar em algo, escolhi a grade de Informática para Internet, onde aprendi a desenvolver programas em C++ e C#, todos os princípios da engenharia da computação, principais tecnologias da web, redes de computadores, entre outros.</p>
@@ -103,7 +107,7 @@ export default props =>
             </div>
         </div>
         <hr />
-        <div className="container-fluid mb-4">
+        <div className="container mb-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-xl-8">
                     <p className="text-justify">Em 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação, um curso direcionado as tecnologias de desenvolvimento e o manejo de equipes técnicas. Nele também aprendemos sobre métodos gerenciais e governança de TI. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus.</p>
