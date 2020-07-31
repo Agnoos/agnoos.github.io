@@ -14,6 +14,11 @@ import me2 from '../../assets/img/portfolio/me2.png'
 import me3 from '../../assets/img/portfolio/me3.png'
 import me4 from '../../assets/img/portfolio/me4.png'
 
+import clim1 from '../../assets/img/portfolio/clim1.png'
+import clim2 from '../../assets/img/portfolio/clim2.png'
+import clim3 from '../../assets/img/portfolio/clim3.png'
+import clim4 from '../../assets/img/portfolio/clim4.png'
+
 
 export default props =>
     <Content>
@@ -149,23 +154,23 @@ export default props =>
         <hr />
 
 
-        {/* <div className="container col-md-10 col-12">
+        <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
                         <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
-                            <img src={cov6} class="card-img me-card-about " alt="Eu"></img>
+                            <img src={clim4} class="card-img me-card-about " alt="Eu"></img>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
-                                <h4 className="card-title">Corona Tracker Com Reactjs e API REST</h4>
+                                <h4 className="card-title">Progressive Web App</h4>
                                 <ul className="my-list">
-                                    <li class=""><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Buscar e formatar dados da api da OMS</li>
+                                    <li class=""><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Web App para verificar o Clima da sua cidade</li>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
-                                        React, ReactHooks, Axios, Material-ui e Api terceira.
+                                        React, Axios e Api terceira.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" href="https://confident-booth-bfbae8.netlify.app/">Acessar Sistema</a></li>
-                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" href="https://confident-booth-bfbae8.netlify.app/">Repositório GitHub</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" href="https://ecstatic-mcnulty-b86dfc.netlify.app/">Acessar Sistema</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" href="https://github.com/Agnoos/React-PWA">Repositório GitHub</a></li>
 
                                 </ul>
 
@@ -187,16 +192,13 @@ export default props =>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src={cov2} alt="Second slide"></img>
+                        <img class="d-block w-100 img-fluid" src={clim1} alt="Second slide"></img>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov3} alt="Third slide"></img>
+                        <img class="d-block w-100 img-fluid" src={clim2} alt="Third slide"></img>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov4} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov5} alt="Third slide"></img>
+                        <img class="d-block w-100 img-fluid" src={clim3} alt="Third slide"></img>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -209,5 +211,5 @@ export default props =>
                 </a>
             </div>
 
-        </div> */}
+        </div>
     </Content>
