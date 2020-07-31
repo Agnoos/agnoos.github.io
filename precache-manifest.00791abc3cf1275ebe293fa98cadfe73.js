@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f736fcb973190cdcbea8308185eae255",
+    "revision": "74791a6143f66b7115d6ca2499e6af54",
     "url": "/site/index.html"
   },
   {
-    "revision": "ee041a892bdcff8c8ddc",
+    "revision": "364fef0896e88a2b9e00",
     "url": "/site/static/css/2.10325ddc.chunk.css"
   },
   {
-    "revision": "f1f665886f62d8da0839",
-    "url": "/site/static/css/main.37d9e1d1.chunk.css"
+    "revision": "c70f64d6098515dd9a5c",
+    "url": "/site/static/css/main.6212c5b0.chunk.css"
   },
   {
-    "revision": "ee041a892bdcff8c8ddc",
-    "url": "/site/static/js/2.8cf5f136.chunk.js"
+    "revision": "364fef0896e88a2b9e00",
+    "url": "/site/static/js/2.34a22fb3.chunk.js"
   },
   {
     "revision": "5c639e0eadf54404f50f772674630a25",
-    "url": "/site/static/js/2.8cf5f136.chunk.js.LICENSE.txt"
+    "url": "/site/static/js/2.34a22fb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1f665886f62d8da0839",
-    "url": "/site/static/js/main.e67e2a95.chunk.js"
+    "revision": "c70f64d6098515dd9a5c",
+    "url": "/site/static/js/main.f0207e78.chunk.js"
   },
   {
     "revision": "1c0aea058aa1e7f7a27b",
@@ -42,6 +42,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1a27147bd5e14c63e49c3296a2cf35d",
     "url": "/site/static/media/camt.e1a27147.png"
+  },
+  {
+    "revision": "887e7f388f45b245df99f175354ff107",
+    "url": "/site/static/media/clim1.887e7f38.png"
+  },
+  {
+    "revision": "141e78d7df58523bde29bd9290a521e6",
+    "url": "/site/static/media/clim2.141e78d7.png"
+  },
+  {
+    "revision": "ddfe05dad8fb6a979030fe33020aa81d",
+    "url": "/site/static/media/clim3.ddfe05da.png"
+  },
+  {
+    "revision": "14379baa1b3f6b3ce9f878c7c0072bbd",
+    "url": "/site/static/media/clim4.14379baa.png"
   },
   {
     "revision": "0406ff2f82a89b320edd9cd8c114219e",
@@ -164,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site/static/media/me.c66647ca.jpg"
   },
   {
-    "revision": "6120fb178b289ed62fb3c73a4bd3134e",
-    "url": "/site/static/media/me1.6120fb17.png"
+    "revision": "24effcc0b1b325592238869a428a7e34",
+    "url": "/site/static/media/me1.24effcc0.png"
   },
   {
     "revision": "553666dd4163e6a2bbc08a4ef39636cf",
