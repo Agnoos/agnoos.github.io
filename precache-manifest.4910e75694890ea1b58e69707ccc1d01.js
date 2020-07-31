@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a510d94e6a01f30ed75e7727581f69d5",
+    "revision": "17cf9da72864af4dbc19effbfdf35bda",
     "url": "/site/index.html"
   },
   {
-    "revision": "87962e2b7184393c4bd9",
+    "revision": "e05dbeb47d53f4cc6d57",
     "url": "/site/static/css/2.10325ddc.chunk.css"
   },
   {
-    "revision": "10579153de36552c7b79",
-    "url": "/site/static/css/main.33dd763c.chunk.css"
+    "revision": "702cf7ed978cde911640",
+    "url": "/site/static/css/main.0e0cbad2.chunk.css"
   },
   {
-    "revision": "87962e2b7184393c4bd9",
-    "url": "/site/static/js/2.fddfc916.chunk.js"
+    "revision": "e05dbeb47d53f4cc6d57",
+    "url": "/site/static/js/2.8e6d3db9.chunk.js"
   },
   {
     "revision": "5c639e0eadf54404f50f772674630a25",
-    "url": "/site/static/js/2.fddfc916.chunk.js.LICENSE.txt"
+    "url": "/site/static/js/2.8e6d3db9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10579153de36552c7b79",
-    "url": "/site/static/js/main.2aabd0c2.chunk.js"
+    "revision": "702cf7ed978cde911640",
+    "url": "/site/static/js/main.a7d5dbf4.chunk.js"
   },
   {
     "revision": "1c0aea058aa1e7f7a27b",
@@ -42,6 +42,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1a27147bd5e14c63e49c3296a2cf35d",
     "url": "/site/static/media/camt.e1a27147.png"
+  },
+  {
+    "revision": "0406ff2f82a89b320edd9cd8c114219e",
+    "url": "/site/static/media/corona1.0406ff2f.png"
+  },
+  {
+    "revision": "7b56b21204636cf283751347435512ed",
+    "url": "/site/static/media/corona2.7b56b212.png"
+  },
+  {
+    "revision": "b50d05115beb1104544c09a1466d9893",
+    "url": "/site/static/media/corona3.b50d0511.png"
+  },
+  {
+    "revision": "6703921f78f02a912a56e619a2d0f61a",
+    "url": "/site/static/media/corona4.6703921f.png"
+  },
+  {
+    "revision": "6a93a155fd45ed4ac6f305e6d28e3bbc",
+    "url": "/site/static/media/corona5.6a93a155.png"
+  },
+  {
+    "revision": "c2284fda5d9cae8870f9b5ab01c7e719",
+    "url": "/site/static/media/corona6.c2284fda.png"
   },
   {
     "revision": "bf67146bee9ddece720e869819bb63a4",
