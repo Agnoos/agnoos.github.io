@@ -58,9 +58,10 @@ export default props =>
                 </div>
 
                 <div className="col-12 ">
-                    <p className="text-justify">Natural de Ribeirão Pires zona metropolitana de São Paulo sempre tive apreciação a tecnologia, desde muito novo desmontava computadores e máquinas velhas para descobrir como funcionavam. Depois de ganhar meu primeiro video-game, um Super Nintendo em 2007, despertou-se em mim o fascínio por jogos eletrônicos, que só fizera aumentar quando ganhei meu primeiro computador, um Pentium Dual-Core E2140 de 1.0 GHz em 2010.</p>
-                    <p className="text-justify">Com 11 anos criei meu primeiro artigo técnico sobre atualizações de Minecraft, no mesmo ano iniciei um canal no Youtube sobre Counter Strike. Todo conteúdo está na web até hoje, e documentam minhas nostalgias.</p>
+                    {/* <p className="text-justify">Natural de Ribeirão Pires zona metropolitana de São Paulo sempre tive apreciação a tecnologia, desde muito novo desmontava computadores e máquinas velhas para descobrir como funcionavam. Depois de ganhar meu primeiro video-game, um Super Nintendo em 2007, despertou-se em mim o fascínio por jogos eletrônicos, que só fizera aumentar quando ganhei meu primeiro computador, um Pentium Dual-Core E2140 de 1.0 GHz em 2010.</p>
+                    <p className="text-justify">Com 11 anos criei meu primeiro artigo técnico sobre atualizações de Minecraft, no mesmo ano iniciei um canal no Youtube sobre Counter Strike. Todo conteúdo está na web até hoje, e documentam minhas nostalgias.</p> */}
                     {/* <p className="text-justify">Mesmo sem acesso a materiais de estudo e computadores de ponta, transitei da minha infância para adolescência estudando tudo que podia estudar, isso formulou e formula boa parte de quem sou, construindo princípios inegociáveis.</p> */}
+                    <p className="text-justify">Desenvolvedor junior Javascript, Nodejs, Reactjs em workflow express, axios e knex, entusiasta em phyton e requisições Rest em requests.py. Design com Figma e Phostoshop e ediçoes em AfterEffects e Camtasia, gosto de atualidades e sou fanático por jogos eletrónicos, atual Top Laner da lineup Celestial da PUCCARDINALS em League of Legends, e traduzo musicas Indies para o youtube nas horas vagas. </p>
                 </div>
 
             </div>

@@ -19,8 +19,8 @@ export default props =>
             <li class="nav-item">
                 <Link className="" to="/site/portfolio/"><a class="nav-link">Portfólio</a></Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
                 <Link className="" to="/site/hobbies/" ><a class="nav-link" >Hobbies</a></Link>
-            </li>
+            </li> */}
         </ul>
     </nav>

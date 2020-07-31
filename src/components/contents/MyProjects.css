@@ -1,0 +1,35 @@
+ul.my-list{
+    color: var(--bg-dark);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.my-list li{
+    border-bottom: solid 1px #1c1c1c3b;
+  
+    padding-right: 4px;
+    margin-top: 4px;
+}
+.me-card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+div.card-body ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info{
+    font-size: 0.8rem;
+    color: #1c1c1ca9;
+}
+
+li.job{
+    font-size: 0.8em;
+}
