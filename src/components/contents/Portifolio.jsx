@@ -23,14 +23,51 @@ import clim4 from '../../assets/img/portfolio/clim4.png'
 export default props =>
     <Content>
 
+        <div className="container-fluid text-center my-2">
+
+            <h2 className="display-4">Meus Desenvolvimentos</h2>
+
+        </div>
+
+        <hr />
+
 
         <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
                         <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
-                            <img src={cov6} class="card-img me-card-about " alt="Eu"></img>
-                        </div>
+
+
+                            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={cov2} alt="Second slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={cov3} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={cov4} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={cov5} alt="Third slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>                        </div>
                         <div className="col-md-7">
                             <div className="card-body">
                                 <h4 className="card-title">Corona Tracker Com Reactjs e API REST</h4>
@@ -39,8 +76,8 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, ReactHooks, Axios, Material-ui e Api terceira.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" href="https://confident-booth-bfbae8.netlify.app/">Acessar Sistema</a></li>
-                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" href="https://github.com/Agnoos/my_project_covid19_tracker">Repositório GitHub</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://confident-booth-bfbae8.netlify.app/">Acessar Sistema</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/my_project_covid19_tracker">Repositório GitHub</a></li>
 
                                 </ul>
 
@@ -52,39 +89,6 @@ export default props =>
             </div>
         </div>
 
-        <div className="container col-md-10 col-12 my-2" >
-
-            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src={cov2} alt="Second slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov3} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov4} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={cov5} alt="Third slide"></img>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-
-        </div>
 
         <hr />
 
@@ -94,8 +98,35 @@ export default props =>
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
                         <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
-                            <img src={me1} class="card-img me-card-about " alt="Eu"></img>
-                        </div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={me2} alt="Second slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={me4} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={me3} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={me1} alt="Third slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>                        </div>
                         <div className="col-md-7">
                             <div className="card-body">
                                 <h4 className="card-title">Site Pessoal</h4>
@@ -104,8 +135,8 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, JavaScript, Bootstrap, Font Awesome, React Router, ReactDom.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" href="https://agnoos.github.io/site/">Acessar Site</a></li>
-                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" href="https://github.com/Agnoos/site">Repositório GitHub</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://agnoos.github.io/site/">Acessar Site</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/site">Repositório GitHub</a></li>
 
                                 </ul>
 
@@ -117,49 +148,44 @@ export default props =>
             </div>
         </div>
 
-        <div className="container col-md-10 col-12 my-2" >
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src={me2} alt="Second slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={me4} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={me3} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={me1} alt="Third slide"></img>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
 
-        </div>
+
 
         <hr />
 
 
-        <div className="container col-md-10 col-12">
+        <div className="container col-md-10 col-12 mb-3">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
                         <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
-                            <img src={clim4} class="card-img me-card-about " alt="Eu"></img>
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={clim1} alt="Second slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={clim2} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={clim3} alt="Third slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
@@ -169,8 +195,8 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, Axios e Api terceira.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" href="https://ecstatic-mcnulty-b86dfc.netlify.app/">Acessar Sistema</a></li>
-                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" href="https://github.com/Agnoos/React-PWA">Repositório GitHub</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://ecstatic-mcnulty-b86dfc.netlify.app/">Acessar Sistema</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/React-PWA">Repositório GitHub</a></li>
 
                                 </ul>
 
@@ -182,34 +208,7 @@ export default props =>
             </div>
         </div>
 
-        <div className="container col-md-10 col-12 my-2" >
 
-            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src={clim1} alt="Second slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={clim2} alt="Third slide"></img>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src={clim3} alt="Third slide"></img>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
 
-        </div>
+
     </Content>

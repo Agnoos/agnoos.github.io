@@ -113,3 +113,18 @@ footer.footer ul a {
         transform: translate(0, 0) skew(3deg);
     }
 }
+
+@media(max-width: 1370px){
+    
+    footer.footer{
+        font-size: 0.8em;
+    }
+    footer.footer ul a {
+        color: var(--bg-light);
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+
+}
+

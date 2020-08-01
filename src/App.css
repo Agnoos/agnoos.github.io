@@ -32,7 +32,7 @@ footer.footer {
     grid-area: footer;
 }
 
-@media(max-width: 768px){
+/* @media(max-width: 768px){
     div.App {
         display: grid;
         grid-template-columns: 1fr ;
@@ -48,4 +48,16 @@ footer.footer {
     }
 
 
+} */
+
+@media(max-width: 1370px){
+    div.App {
+        display: grid;
+        grid-template-columns: 170px 1fr;
+        grid-template-rows: 50px 1fr 90px;
+        grid-template-areas: "logo header" "navbar content" "footer footer";
+        height: 100vh;
+    }
 }
+
+
