@@ -12,7 +12,7 @@ export default props =>
                     <li class="list-inline-item"><a href="https://github.com/Agnoos" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/ricardo-lucass/" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
                 </ul>
-                <div className="align-footer mt-2">
+                <div className="align-footer  mb-5">
                     <p class="lucas-direitos ">© All right Reversed.<a class=" h6 ml-2 mb-0 lucas " href="https://twitter.com/Agnoos_" target="_blank">Lucas Ricardo</a></p>
                 </div>
             </div>
