@@ -19,14 +19,12 @@ import clim2 from '../../assets/img/portfolio/clim2.png'
 import clim3 from '../../assets/img/portfolio/clim3.png'
 import clim4 from '../../assets/img/portfolio/clim4.png'
 
-import chat1 from '../../assets/img/portfolio/chat1.png'
 import chat2 from '../../assets/img/portfolio/chat2.png'
 import chat3 from '../../assets/img/portfolio/chat3.png'
 import chat4 from '../../assets/img/portfolio/chat4.png'
 import chat5 from '../../assets/img/portfolio/chat5.png'
 import chat6 from '../../assets/img/portfolio/chat6.png'
 import chat7 from '../../assets/img/portfolio/chat7.png'
-import chat8 from '../../assets/img/portfolio/chat8.png'
 
 
 export default props =>
@@ -55,9 +53,6 @@ export default props =>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100 img-fluid" src={chat1} alt="Second slide"></img>
-                                    </div>
-                                    <div class="carousel-item">
                                         <img class="d-block w-100 img-fluid" src={chat2} alt="Third slide"></img>
                                     </div>
                                     <div class="carousel-item">
@@ -74,9 +69,6 @@ export default props =>
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100 img-fluid" src={chat7} alt=""></img>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100 img-fluid" src={chat8} alt=""></img>
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -96,7 +88,7 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, ReactHooks e Socket.io.
                                     </li>
-                                    <li class=""><i class="fa fa-star project-diagram" aria-hidden="true"></i><span className="info mx-1">Deploy:</span>
+                                    <li class=""><i class="fa fa-project-diagram info" aria-hidden="true"></i><span className="info mx-1">Deploy:</span>
                                         Netlify e Heroku.
                                     </li>
 
@@ -280,7 +272,7 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, Axios e Api terceira.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://ecstatic-mcnulty-b86dfc.netlify.app/">Acessar Sistema</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://kind-archimedes-6c34b9.netlify.app/">Acessar Sistema</a></li>
                                     <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/React-PWA">Repositório GitHub</a></li>
 
                                 </ul>
