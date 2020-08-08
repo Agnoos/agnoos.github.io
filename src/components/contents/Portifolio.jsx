@@ -7,7 +7,6 @@ import cov2 from '../../assets/img/portfolio/corona2.png'
 import cov3 from '../../assets/img/portfolio/corona3.png'
 import cov4 from '../../assets/img/portfolio/corona4.png'
 import cov5 from '../../assets/img/portfolio/corona5.png'
-import cov6 from '../../assets/img/portfolio/corona6.png'
 
 import me1 from '../../assets/img/portfolio/me1.png'
 import me2 from '../../assets/img/portfolio/me2.png'
@@ -17,7 +16,6 @@ import me4 from '../../assets/img/portfolio/me4.png'
 import clim1 from '../../assets/img/portfolio/clim1.png'
 import clim2 from '../../assets/img/portfolio/clim2.png'
 import clim3 from '../../assets/img/portfolio/clim3.png'
-import clim4 from '../../assets/img/portfolio/clim4.png'
 
 import chat2 from '../../assets/img/portfolio/chat2.png'
 import chat3 from '../../assets/img/portfolio/chat3.png'
@@ -25,6 +23,8 @@ import chat4 from '../../assets/img/portfolio/chat4.png'
 import chat5 from '../../assets/img/portfolio/chat5.png'
 import chat6 from '../../assets/img/portfolio/chat6.png'
 import chat7 from '../../assets/img/portfolio/chat7.png'
+
+import nlw2 from '../../assets/img/portfolio/nlw2.jpg'
 
 
 export default props =>
@@ -37,6 +37,54 @@ export default props =>
         </div>
 
         <hr />
+
+        <hr />
+
+
+        <div className="container col-md-10 col-12 mb-3">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={nlw2} alt="First Slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Next Level Week 2 - <span class="text-danger">Em Breve</span></h4>
+                                <ul className="my-list">
+                                    <li class=""><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Plataforma para estudo a distancia e cadastro de professores Freelancer, interface para alunos.</li>
+                                    <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                    React, Reacthooks, MaterialUi, ReactNative e Figma.
+                            </li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" >Em Breve</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/nlw2-rocketseat">Repositório GitHub</a></li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div className="container col-md-10 col-12">
             <div className="row ">
