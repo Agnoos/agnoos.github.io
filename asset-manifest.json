@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.47be3ac4.chunk.css",
-    "main.js": "/site/static/js/main.c3c8c5d4.chunk.js",
-    "main.js.map": "/site/static/js/main.c3c8c5d4.chunk.js.map",
+    "main.css": "/site/static/css/main.5ff5926d.chunk.css",
+    "main.js": "/site/static/js/main.cf2a7417.chunk.js",
+    "main.js.map": "/site/static/js/main.cf2a7417.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.849a864b.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.849a864b.js.map",
-    "static/css/2.10325ddc.chunk.css": "/site/static/css/2.10325ddc.chunk.css",
+    "static/css/2.68918abb.chunk.css": "/site/static/css/2.68918abb.chunk.css",
     "static/js/2.8a9d49f5.chunk.js": "/site/static/js/2.8a9d49f5.chunk.js",
     "static/js/2.8a9d49f5.chunk.js.map": "/site/static/js/2.8a9d49f5.chunk.js.map",
     "index.html": "/site/index.html",
-    "precache-manifest.048c5503ea6963f0325f3dc52af1846e.js": "/site/precache-manifest.048c5503ea6963f0325f3dc52af1846e.js",
+    "precache-manifest.cceb1ee3b9d9789a15593ae327551ea1.js": "/site/precache-manifest.cceb1ee3b9d9789a15593ae327551ea1.js",
     "service-worker.js": "/site/service-worker.js",
-    "static/css/2.10325ddc.chunk.css.map": "/site/static/css/2.10325ddc.chunk.css.map",
-    "static/css/main.47be3ac4.chunk.css.map": "/site/static/css/main.47be3ac4.chunk.css.map",
+    "static/css/2.68918abb.chunk.css.map": "/site/static/css/2.68918abb.chunk.css.map",
+    "static/css/main.5ff5926d.chunk.css.map": "/site/static/css/main.5ff5926d.chunk.css.map",
     "static/js/2.8a9d49f5.chunk.js.LICENSE.txt": "/site/static/js/2.8a9d49f5.chunk.js.LICENSE.txt",
     "static/media/Logo.css": "/site/static/media/Futura Bold font.4c62644b.ttf",
     "static/media/White.png": "/site/static/media/White.7921c032.png",
@@ -37,7 +37,7 @@
     "static/media/figma.png": "/site/static/media/figma.b1cc27f8.png",
     "static/media/font-awesome.min.css": "/site/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/ibm.jpg": "/site/static/media/ibm.3a25dbbc.jpg",
-    "static/media/me.jpg": "/site/static/media/me.c66647ca.jpg",
+    "static/media/me.jpg": "/site/static/media/me.a846b284.jpg",
     "static/media/me1.png": "/site/static/media/me1.24effcc0.png",
     "static/media/me2.png": "/site/static/media/me2.553666dd.png",
     "static/media/me3.png": "/site/static/media/me3.0228c4a7.png",
@@ -50,9 +50,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.849a864b.js",
-    "static/css/2.10325ddc.chunk.css",
+    "static/css/2.68918abb.chunk.css",
     "static/js/2.8a9d49f5.chunk.js",
-    "static/css/main.47be3ac4.chunk.css",
-    "static/js/main.c3c8c5d4.chunk.js"
+    "static/css/main.5ff5926d.chunk.css",
+    "static/js/main.cf2a7417.chunk.js"
   ]
 }
