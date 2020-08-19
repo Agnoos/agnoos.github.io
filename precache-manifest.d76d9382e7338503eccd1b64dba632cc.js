@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cc0d900ae371281a89445cdd067ef77",
+    "revision": "8ba4aa00c231db2988cfb2eced3c6de5",
     "url": "/site/index.html"
   },
   {
-    "revision": "031d60e10815b0380449",
+    "revision": "903462683fc5b9bbf1fe",
     "url": "/site/static/css/2.68918abb.chunk.css"
   },
   {
-    "revision": "8931bf8346cc8d56733c",
+    "revision": "246ca2dc29af9e6bbe81",
     "url": "/site/static/css/main.5ff5926d.chunk.css"
   },
   {
-    "revision": "031d60e10815b0380449",
-    "url": "/site/static/js/2.8a9d49f5.chunk.js"
+    "revision": "903462683fc5b9bbf1fe",
+    "url": "/site/static/js/2.e10965d4.chunk.js"
   },
   {
     "revision": "5c639e0eadf54404f50f772674630a25",
-    "url": "/site/static/js/2.8a9d49f5.chunk.js.LICENSE.txt"
+    "url": "/site/static/js/2.e10965d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8931bf8346cc8d56733c",
-    "url": "/site/static/js/main.cf2a7417.chunk.js"
+    "revision": "246ca2dc29af9e6bbe81",
+    "url": "/site/static/js/main.0151a501.chunk.js"
   },
   {
     "revision": "1c0aea058aa1e7f7a27b",
@@ -216,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site/static/media/nlw2.54639aa2.jpg"
   },
   {
+    "revision": "ffe018d5ac94458035c456291ee7217c",
+    "url": "/site/static/media/nlw3.ffe018d5.jpeg"
+  },
+  {
     "revision": "5a423ea8db965f364191b9bc77946bc7",
     "url": "/site/static/media/people.5a423ea8.png"
   },
@@ -226,6 +230,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "72f8101f3cd369b72d668cbd24da30d4",
     "url": "/site/static/media/pucc.72f8101f.jpg"
+  },
+  {
+    "revision": "a3c786b13c18cbb678b802482553e14d",
+    "url": "/site/static/media/spot1.a3c786b1.png"
+  },
+  {
+    "revision": "8499b15971e6c55a4a5c611044eebd5e",
+    "url": "/site/static/media/spot2.8499b159.png"
+  },
+  {
+    "revision": "0834ab436019b42a187f3fe240f49ba4",
+    "url": "/site/static/media/spot3.0834ab43.png"
+  },
+  {
+    "revision": "be4935cd9dcddb5da8bc86f26c7729ad",
+    "url": "/site/static/media/spot4.be4935cd.png"
+  },
+  {
+    "revision": "7208a739b421128d169c9a5829ee51b2",
+    "url": "/site/static/media/spot5.7208a739.png"
+  },
+  {
+    "revision": "99779ae3360acd7f3e44e21b5bc76ece",
+    "url": "/site/static/media/spot6.99779ae3.png"
+  },
+  {
+    "revision": "6493f3908b4022341122d9d6bb0a6e08",
+    "url": "/site/static/media/spot7.6493f390.png"
   },
   {
     "revision": "b8435e8eebeca2310398010e1909eadd",
