@@ -3,6 +3,7 @@ import Content from '../Content'
 import ibm from '../../assets/img/ibm.jpg'
 import unicamp from '../../assets/img/unicamp.jpg'
 import people from '../../assets/img/people.png'
+import kaffa from '../../assets/img/kaffa.png'
 import './MyProjects.css'
 import psd from '../../assets/icon/psd.png'
 import camt from '../../assets/icon/camt.png'
@@ -19,6 +20,32 @@ export default props =>
         </div>
 
         <hr />
+
+        <div className="container">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12 ">
+                            <img src={kaffa} class="card-img me-card-about" alt="Eu"></img>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Analista Desenvolvedor 2020 - Atualmente</h4>
+                                <ul className="my-list">
+                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Time de Operações</li>
+                                    {/* <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                        Java <i class="fab fa-java text-kotlibn mr-1" aria-hidden="true"></i>
+                                    </li> */}
+                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Agile</li>
+                                    <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div className="container">
             <div className="row ">

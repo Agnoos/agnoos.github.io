@@ -3,7 +3,7 @@ import Content from '../Content'
 import './AboutMe.css'
 import psd from '../../assets/icon/psd.png'
 import camt from '../../assets/icon/camt.png'
-import me from '../../assets/img/me.jpg'
+import me from '../../assets/img/me.png'
 import pucc from '../../assets/img/pucc.jpg'
 import customcandy from '../../assets/img/customcandy.jpg'
 import admetec from '../../assets/img/admetec.jpg'
@@ -100,7 +100,7 @@ export default props =>
                     <div class="card mt-2 mt-md-2">
                         <img class="card-img-top" src={customcandy} alt="Equipe Custom Candy" />
                         <div class="card-body">
-                            <p class="card-text 1x">Equipe Custom Candy - 2019</p>
+                            <p class="card-text 1x">Apresentação do TCC - 2019</p>
 
                         </div>
                     </div>
@@ -111,8 +111,8 @@ export default props =>
         <div className="container mb-4">
             <div className="row">
                 <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify">Em 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação, um curso direcionado as tecnologias de desenvolvimento e o manejo de equipes técnicas. Nele também aprendemos sobre métodos gerenciais e governança de TI. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus.</p>
-                    <p className="text-justify">Minha equipe ficou em 2°lugar e fomos premiados com um dia VIP com gestores da empresa IBM.</p>
+                    <p className="text-justify">Em 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus, o desafio deste ano era idealizar uma aplicação que auxiliasse nos novos desafios da conciliação entre tecnologia e livros, com o tema "Ensino do Futuro" montamos um escopo e prototipo de app para biblioteca do Campus.</p>
+                    <p className="text-justify">Minha equipe ficou em 2°lugar e fomos premiados com um dia VIP na sede da IBM acompanhado de almoço com gestores de negócio e inovação. </p>
                 </div>
                 <div className="col-12 col-md-6 col-xl-4">
                     <div class="card mt-2 mt-md-2">
