@@ -46,6 +46,10 @@ nav.navbar a{
     font-size: 1em;
     }
 
+   .last{
+        display: none;
+    }
+
     nav.navbar a.active{
         
         animation: glow 2s ease-in-out infinite alternate;

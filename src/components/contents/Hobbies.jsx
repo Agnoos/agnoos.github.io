@@ -42,7 +42,7 @@ export default props =>
                     </div>
                 </div>
                 <div className="col-md-3 col-6 text-center">
-                    <h5 className="my-2">Minecraft Vanilla(PC)</h5>
+                    <h5 className="my-2">Minecraft Vanilla (PC)</h5>
                     <div class="card test" >
                         <img class="card-img-top" src="https://i.pinimg.com/originals/6b/3e/66/6b3e667bd058072ffdfe5a096e625633.jpg" alt="Card image cap" />
                     </div>
@@ -193,6 +193,17 @@ export default props =>
                     </div>
                 </div>
             </div>
+
+            <div  className="row text-center mb-2 spotify">
+                <div className="col-12 col-md mt-2 text-center">
+                <p className="text-center display-6 lead text-success">Tocando Agora  <i class="fab fa-spotify text-success"></i></p>
+                    <div class="card test" >
+                        <a href="https://open.spotify.com/user/niibiru?fbclid=IwAR3LORfX2ZgLEvtwGf8XCNxeSY-RR3nyO_KJbGqgjdOSLHq9oz8ck-tkjtw" target="_blank">
+                            <img src="https://now-playing-bvdddpyat.vercel.app/api/spotify" alt="agnoos Spotify  now playing" width="300px" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <hr />
         <div className="container mb-5">
@@ -201,7 +212,6 @@ export default props =>
                     <h1 className="display-5">Trilhas sonoras</h1>
                 </div>
                 <div className="col-12">
-                    <p className="text-justify">O som das coisas é algo que me inspira, com certa melodia ou frequência todo um ambiente pode ter outro clima, uma melodia pode te deixar triste, emotivo, ou te levar direto aos anos de ouro da sua infância, quem seria Jack Sparrow sem sua trilha de pirata? </p>
                     <p className="text-justify">Minha maior referência em arte de orquestra é Hans Zimmer, sinto que conseguiria combater um ataque alienígena ouvindo suas faixas....</p>
                 </div>
             </div>
@@ -238,9 +248,11 @@ export default props =>
                     </div>
                 </div>
             </div>
+
+
         </div>
 
-        <hr/>
+        <hr />
 
         <div className="container mb-4">
             <div className="row">
@@ -249,7 +261,7 @@ export default props =>
                 </div>
             </div>
 
-            <hr/>
+            <hr />
 
             <div className="row text-center mt-2">
                 <div className="col-md-3 col-6 text-center">
@@ -283,7 +295,7 @@ export default props =>
                     <h1 className="display-5">Influenciadores</h1>
                 </div>
             </div>
-            <hr/>
+            <hr />
 
             <div className="row text-center mt-2 mb-2">
                 <div className="col-md-2 col-4 mt-2 text-center">
@@ -298,7 +310,13 @@ export default props =>
                         <h6 className="my-2">Filipe Deschamps</h6>
                     </div>
                 </div>
+                <div className="col-md-2 col-4 mt-2 text-center">
+                    <div class="card test" >
+                        <img class="card-img-top" src="https://scontent.fcpq11-1.fna.fbcdn.net/v/t1.0-9/99062540_3078866735539029_5886701022214094848_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_eui2=AeGzENIIQEDU13fWulOv_G1eLGPEcWR774IsY8RxZHvvgiAzsDorbTDnFdasRbsHynLMoFXzV7pdrK2VO0-QyR9L&_nc_ohc=rQ3vncESV4gAX87PD7k&_nc_ht=scontent.fcpq11-1.fna&oh=9e5d99c2267b339d3da8c97d127d8881&oe=5F84A414" alt="Card image cap" />
+                        <h6 className="my-2">André Basso</h6>
+                    </div>
+                </div>
             </div>
         </div>
-        <hr/>
+        <hr />
     </Content>

@@ -22,5 +22,8 @@ export default props =>
             <li class="nav-item">
                 <Link className="" to="/site/hobbies/" ><a class="nav-link" >Hobbies</a></Link>
             </li>
+            <li class="nav-item last" id="cv">
+                <a className="nav-link " href="https://drive.google.com/file/d/18NrUsy5_-ghzX4LpyT-cWBrKH91GGxDE/view" target="_blank">Baixar cv PDF</a>
+            </li>
         </ul>
     </nav>

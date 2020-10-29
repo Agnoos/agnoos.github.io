@@ -3,5 +3,9 @@ header.header{
 
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
+}
+
+header.header a{
+    background-color: rgb(255, 255, 255);
 }
