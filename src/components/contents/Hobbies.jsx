@@ -11,6 +11,16 @@ export default props =>
         </div>
 
         <hr />
+        <div className="col-12 text-center">
+            <div className="row">
+                <blockquote class="text-center blockquote my-2">
+                    <p class="mb-0 mx-5">Possuo um site especifico, onde escrevo sobre filmes, séries, música e política entre outras coisas, você pode acessar clicando aqui : <a target="_blank" className="text-pink" href="https://agnoos.com"><span className="text-pink">AGNOOS</span></a></p>
+                </blockquote>
+            </div>
+        </div>
+
+
+        <hr />
 
         <div className="container mb-4">
             <div className="row">
@@ -18,7 +28,7 @@ export default props =>
                     <h1 className="display-5">Jogos</h1>
                 </div>
                 <div className="col-12">
-                    <p className="text-justify">Jogos foram muito importantes na minha vida, depois de virar agnóstico meu codenome na internet passou a ser AGNOOS uso até hoje. Minecraft foi o carro chefe dos meus interesses desde 2009, foi lá que eu fiz modes, criei e conheci grandes amigos. Depois mais velho, joguei profissionalmente modalidade competitivas, hoje sou membro da equipe universitária da PUCCAMP na modalidade de League of Legends.</p>
+                    <p className="text-justify">Cheguei a jogar torneios academicos de jogos competitivos, CS:GO e League of Legends, hoje não jogo no mesmo ritmo mas possuo ali, minhas maestrias rs, daqui que veio meu nome na internet, AGNOOS, uma abreviação pra como me chamavam, agnóstico, por seguir essa crença desde a época de Grand Chase e Mu Online.</p>
                 </div>
             </div>
 
@@ -194,9 +204,9 @@ export default props =>
                 </div>
             </div>
 
-            <div  className="row text-center mb-2 spotify">
+            <div className="row text-center mb-2 spotify">
                 <div className="col-12 col-md mt-2 text-center">
-                <p className="text-center display-6 lead text-success">Tocando Agora  <i class="fab fa-spotify text-success"></i></p>
+                    <p className="text-center display-6 lead text-success">Tocando Agora  <i class="fab fa-spotify text-success"></i></p>
                     <div class="card test" >
                         <a href="https://open.spotify.com/user/niibiru?fbclid=IwAR3LORfX2ZgLEvtwGf8XCNxeSY-RR3nyO_KJbGqgjdOSLHq9oz8ck-tkjtw" target="_blank">
                             <img src="https://now-playing-bvdddpyat.vercel.app/api/spotify" alt="agnoos Spotify  now playing" width="300px" />
@@ -287,36 +297,4 @@ export default props =>
             </div>
         </div>
 
-        <hr />
-
-        <div className="container mb-5">
-            <div className="row">
-                <div className="col-12">
-                    <h1 className="display-5">Influenciadores</h1>
-                </div>
-            </div>
-            <hr />
-
-            <div className="row text-center mt-2 mb-2">
-                <div className="col-md-2 col-4 mt-2 text-center">
-                    <div class="card test" >
-                        <img class="card-img-top" src="https://www.infoq.com/images/profiles/zDdlagNsRtArnva80YsOo70X0CrGzqVd.jpg" alt="Card image cap" />
-                        <h6 className="my-2">Fabio Akita</h6>
-                    </div>
-                </div>
-                <div className="col-md-2 col-4 mt-2 text-center">
-                    <div class="card test" >
-                        <img class="card-img-top" src="https://filipedeschamps.com.br/avatar-big.png" alt="Card image cap" />
-                        <h6 className="my-2">Filipe Deschamps</h6>
-                    </div>
-                </div>
-                <div className="col-md-2 col-4 mt-2 text-center">
-                    <div class="card test" >
-                        <img class="card-img-top" src="https://scontent.fcpq11-1.fna.fbcdn.net/v/t1.0-9/99062540_3078866735539029_5886701022214094848_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_eui2=AeGzENIIQEDU13fWulOv_G1eLGPEcWR774IsY8RxZHvvgiAzsDorbTDnFdasRbsHynLMoFXzV7pdrK2VO0-QyR9L&_nc_ohc=rQ3vncESV4gAX87PD7k&_nc_ht=scontent.fcpq11-1.fna&oh=9e5d99c2267b339d3da8c97d127d8881&oe=5F84A414" alt="Card image cap" />
-                        <h6 className="my-2">André Basso</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr />
     </Content>

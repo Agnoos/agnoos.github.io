@@ -62,3 +62,27 @@ footer.footer {
 }
 
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+ .artigo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+ }
+ .text-pink {
+    animation: glow-pink 2s ease-in-out infinite alternate;
+    color: #b700ff;
+}
+
+.text-pink:hover {
+    text-decoration: none;
+}
+
+@keyframes glow-pink {
+    from {
+        text-shadow: 0 0 20px #8c00ff;
+    }
+    to {
+        text-shadow: 0 0 30px #cc00ff, 0 0 10px #ae00ff;
+    }
+}
+

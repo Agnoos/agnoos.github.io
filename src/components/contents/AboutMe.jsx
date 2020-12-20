@@ -55,72 +55,14 @@ export default props =>
                     <h1 className="display-4">Sobre</h1>
                 </div>
 
-                <div className="col-12 col-md-8">
-                    {/* <p className="text-justify">Natural de Ribeirão Pires zona metropolitana de São Paulo sempre tive apreciação a tecnologia, desde muito novo desmontava computadores e máquinas velhas para descobrir como funcionavam. Depois de ganhar meu primeiro video-game, um Super Nintendo em 2007, despertou-se em mim o fascínio por jogos eletrônicos, que só fizera aumentar quando ganhei meu primeiro computador, um Pentium Dual-Core E2140 de 1.0 GHz em 2010.</p>
-                    <p className="text-justify">Com 11 anos criei meu primeiro artigo técnico sobre atualizações de Minecraft, no mesmo ano iniciei um canal no Youtube sobre Counter Strike. Todo conteúdo está na web até hoje, e documentam minhas nostalgias.</p> */}
-                    {/* <p className="text-justify">Mesmo sem acesso a materiais de estudo e computadores de ponta, transitei da minha infância para adolescência estudando tudo que podia estudar, isso formulou e formula boa parte de quem sou, construindo princípios inegociáveis.</p> */}
-                    <p className="text-justify">Desenvolvedor Junior, trabalhando atualmente com Java e Kotlin, programador por hobbie que viu a oportunidade profissional com oque gosta de fazer, se não estiver codando estou jogando, vendo algum filme doido ou ouvindo alguma música de gosto duvidoso.</p>
-                </div>
-
-            </div>
-        </div>
-        <hr />
-
-        <div className="container mb-4">
-            <div className="row">
                 <div className="col-12">
-                    <h1 className="display-5">Educação</h1>
+                    <p className="text-justify artigo">Developer júnior, trabalhando na área de TI desde os 17 anos, quando dei inicio ao curso técnico de analise e desenvolvimento de sistemas em 2016, posteriormente ingressando na graduação em tecnologia da informação pela PUC-Campinas, onde me formo ao final de 2021.</p>
+                    <p className="text-justify artigo mt-2">Trabalhei nas mais váriadas áreas de TI, já prestei suporte, estagiário em testes, freelancer, help desk, e agora estou como desenvolvedor. Pretendo construir carreira na área, assumindo responsabilidades e superando obstáculos.</p>
+                    <p className="text-justify artigo mt-4">Se não estiver codando, estou assistindo um filme, jogando um video game ou ouvindo música, sou apaixonado por cinema e arte, e passo meu tempo livre escrevendo sobre eles.</p>
                 </div>
 
-                <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify">Me mudei para o interior de São Paulo em 2015 e logo iniciei o ensino técnico em administração no Centro Paula Souza de Hortolândia. Com interesse em processos empresariais, o ensino na ETEC foi fundamental para formação e desenvolvimento da minha imagem. Me formei em junho de 2017 juntamente ao meu ensino médio na rede pública estadual.</p>
-                    <p className="text-justify">Meu TCC abordou métodos inteligentes de investimentos, onde citamos inclusive as criptomoedas que viera a explodir no ano seguinte, há quem diga que eramos gênios que previram o futuro, pois bem! estudamos, mas ninguém do grupo comprou Bitcoin, gênios nem tão gênios assim...</p>
-                </div>
-                <div className="col-12 col-md-6 col-xl-4">
-                    <div class="card mt-2 mt-md-2">
-                        <img class="card-img-top" src={admetec} alt="Turma de administração" />
-                        <div class="card-body">
-                            <p class="card-text 1x">Turma de administração - Hortolândia 2017</p>
-
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-        <hr />
-        <div className="container mb-4">
-            <div className="row">
-                <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify">Em 2018 dei início a outro curso técnico também na ETEC de Hortolândia, iria fazer meus 18 anos de idade e estava na hora de me especializar em algo, escolhi a grade de Informática para Internet, onde aprendi a desenvolver programas em C++ e C#, todos os princípios da engenharia da computação, principais tecnologias da web, redes de computadores, entre outros.</p>
-                    <p className="text-justify">Nosso tcc foi o desenvolvimento de uma plataforma e-commerce, nomeada por nós como Custom Candy, a proposta era melhorar a visibilidade de pequenos comerciantes independentes da cidade. Mesmo que nosso projeto tenha utilizado tecnologias legado da web, foi através dele que colocamos em prática os princípios de uma API, pilares de estilização, templates responsivos, etc.</p>
-                </div>
-                <div className="col-12 col-md-6 col-xl-4">
-                    <div class="card mt-2 mt-md-2">
-                        <img class="card-img-top" src={customcandy} alt="Equipe Custom Candy" />
-                        <div class="card-body">
-                            <p class="card-text 1x">Apresentação do TCC - 2019</p>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div className="container mb-4">
-            <div className="row">
-                <div className="col-12 col-md-6 col-xl-8">
-                    <p className="text-justify">Em 2019 logo depois de me formar na ETEC, consegui uma bolsa de estudos na PUC-Campinas para o curso de Tecnologia da Informação. Alguns meses após o meu ingresso, já pude participar de desafios na anual PUC-Experiencie que com parceria de empresas privadas propõe projetos a serem desenvolvidos por equipes multidisciplinares do campus, o desafio deste ano era idealizar uma aplicação que auxiliasse nos novos desafios da conciliação entre tecnologia e livros, com o tema "Ensino do Futuro" montamos um escopo e prototipo de app para biblioteca do Campus.</p>
-                    <p className="text-justify">Minha equipe ficou em 2°lugar e fomos premiados com um dia VIP na sede da IBM acompanhado de almoço com gestores de negócio e inovação. </p>
-                </div>
-                <div className="col-12 col-md-6 col-xl-4">
-                    <div class="card mt-2 mt-md-2">
-                        <img class="card-img-top" src={pucc} alt="PUC Experience 2019" />
-                        <div class="card-body">
-                            <p class="card-text 1x">PUC Experience Desafio IBM 2019</p>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </Content>

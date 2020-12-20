@@ -34,6 +34,12 @@ import spot4 from '../../assets/img/portfolio/spot4.png'
 import spot5 from '../../assets/img/portfolio/spot5.png'
 import spot6 from '../../assets/img/portfolio/spot6.png'
 import spot7 from '../../assets/img/portfolio/spot7.png'
+import ttbot from '../../assets/img/portfolio/twitterbot.png'
+import ttbot2 from '../../assets/img/portfolio/twitterbot2.png'
+
+import critc1 from '../../assets/img/portfolio/critc1.png'
+import critc2 from '../../assets/img/portfolio/critc2.png'
+import critc3 from '../../assets/img/portfolio/critc3.png'
 
 
 export default props =>
@@ -277,6 +283,110 @@ export default props =>
 
 
         <hr />
+
+        <div className="container col-md-10 col-12">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
+
+
+                            <div id="carouselExampleIndicatorscritc" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicatorscritc" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicatorscritc" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicatorscritc" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={critc1} alt="Second slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={critc2} alt="Third slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={critc3} alt="Third slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicatorscritc" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicatorscritc" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Site Pessoal - Hobbie</h4>
+                                <ul className="my-list">
+                                    <li class=""><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Suprir meus hobbies em escrever e apreciar.</li>
+                                    <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                        React, Bootstrap, CSS e certificado SSL
+                                    </li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://agnoos.com">Acessar Sistema</a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div className="container col-md-10 col-12">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
+
+
+                            <div id="carouselExampleIndicatorstt" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicatorstt" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicatorstt" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-fluid" src={ttbot} alt="Second slide"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-fluid" src={ttbot2} alt="Third slide"></img>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicatorstt" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicatorstt" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Twitter Bot</h4>
+                                <ul className="my-list">
+                                    <li class=""><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Retewettar tudo que seja relacionado a filmes e musicas que gosto.</li>
+                                    <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                        Node e Python
+                                    </li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://twitter.com/bot_cult">Acessar Sistema</a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        hr
 
 
         <div className="container col-md-10 col-12">
