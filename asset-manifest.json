@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.02a8da26.chunk.css",
-    "main.js": "/site/static/js/main.fb9e3c16.chunk.js",
-    "main.js.map": "/site/static/js/main.fb9e3c16.chunk.js.map",
+    "main.css": "/site/static/css/main.0fff9ed2.chunk.css",
+    "main.js": "/site/static/js/main.b41c8abe.chunk.js",
+    "main.js.map": "/site/static/js/main.b41c8abe.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.849a864b.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.849a864b.js.map",
     "static/css/2.68918abb.chunk.css": "/site/static/css/2.68918abb.chunk.css",
-    "static/js/2.e33e0a18.chunk.js": "/site/static/js/2.e33e0a18.chunk.js",
-    "static/js/2.e33e0a18.chunk.js.map": "/site/static/js/2.e33e0a18.chunk.js.map",
+    "static/js/2.426b9727.chunk.js": "/site/static/js/2.426b9727.chunk.js",
+    "static/js/2.426b9727.chunk.js.map": "/site/static/js/2.426b9727.chunk.js.map",
     "index.html": "/site/index.html",
-    "precache-manifest.34ff1dfc48a8930084043d4fa282c127.js": "/site/precache-manifest.34ff1dfc48a8930084043d4fa282c127.js",
+    "precache-manifest.e6b649031f1449b93acf8a60f9664835.js": "/site/precache-manifest.e6b649031f1449b93acf8a60f9664835.js",
     "service-worker.js": "/site/service-worker.js",
     "static/css/2.68918abb.chunk.css.map": "/site/static/css/2.68918abb.chunk.css.map",
-    "static/css/main.02a8da26.chunk.css.map": "/site/static/css/main.02a8da26.chunk.css.map",
-    "static/js/2.e33e0a18.chunk.js.LICENSE.txt": "/site/static/js/2.e33e0a18.chunk.js.LICENSE.txt",
+    "static/css/main.0fff9ed2.chunk.css.map": "/site/static/css/main.0fff9ed2.chunk.css.map",
+    "static/js/2.426b9727.chunk.js.LICENSE.txt": "/site/static/js/2.426b9727.chunk.js.LICENSE.txt",
     "static/media/Logo.css": "/site/static/media/Futura Bold font.4c62644b.ttf",
     "static/media/admetec.jpg": "/site/static/media/admetec.f019b240.jpg",
     "static/media/camt.png": "/site/static/media/camt.e1a27147.png",
@@ -31,6 +31,9 @@
     "static/media/corona3.png": "/site/static/media/corona3.b50d0511.png",
     "static/media/corona4.png": "/site/static/media/corona4.6703921f.png",
     "static/media/corona5.png": "/site/static/media/corona5.6a93a155.png",
+    "static/media/critc1.png": "/site/static/media/critc1.bffe21a9.png",
+    "static/media/critc2.png": "/site/static/media/critc2.c199b741.png",
+    "static/media/critc3.png": "/site/static/media/critc3.01c1fcdb.png",
     "static/media/customcandy.jpg": "/site/static/media/customcandy.bf67146b.jpg",
     "static/media/all.min.css": "/site/static/media/fa-solid-900.f3a7d3b5.woff",
     "static/media/figma.png": "/site/static/media/figma.b1cc27f8.png",
@@ -53,13 +56,15 @@
     "static/media/spot5.png": "/site/static/media/spot5.7208a739.png",
     "static/media/spot6.png": "/site/static/media/spot6.99779ae3.png",
     "static/media/spot7.png": "/site/static/media/spot7.6493f390.png",
+    "static/media/twitterbot.png": "/site/static/media/twitterbot.23daca39.png",
+    "static/media/twitterbot2.png": "/site/static/media/twitterbot2.4738971f.png",
     "static/media/unicamp.jpg": "/site/static/media/unicamp.b8435e8e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.849a864b.js",
     "static/css/2.68918abb.chunk.css",
-    "static/js/2.e33e0a18.chunk.js",
-    "static/css/main.02a8da26.chunk.css",
-    "static/js/main.fb9e3c16.chunk.js"
+    "static/js/2.426b9727.chunk.js",
+    "static/css/main.0fff9ed2.chunk.css",
+    "static/js/main.b41c8abe.chunk.js"
   ]
 }

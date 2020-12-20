@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "961d34201c40a9c494931d0c052a4f5b",
+    "revision": "77a4b93d5ee10b3e039bd4cc83f46d7e",
     "url": "/site/index.html"
   },
   {
-    "revision": "aac853ac6a24f3b8e911",
+    "revision": "8cccd4124357af0737c8",
     "url": "/site/static/css/2.68918abb.chunk.css"
   },
   {
-    "revision": "0906ace9f0da0c515c82",
-    "url": "/site/static/css/main.02a8da26.chunk.css"
+    "revision": "1f8d955d520323923a61",
+    "url": "/site/static/css/main.0fff9ed2.chunk.css"
   },
   {
-    "revision": "aac853ac6a24f3b8e911",
-    "url": "/site/static/js/2.e33e0a18.chunk.js"
+    "revision": "8cccd4124357af0737c8",
+    "url": "/site/static/js/2.426b9727.chunk.js"
   },
   {
     "revision": "5c639e0eadf54404f50f772674630a25",
-    "url": "/site/static/js/2.e33e0a18.chunk.js.LICENSE.txt"
+    "url": "/site/static/js/2.426b9727.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0906ace9f0da0c515c82",
-    "url": "/site/static/js/main.fb9e3c16.chunk.js"
+    "revision": "1f8d955d520323923a61",
+    "url": "/site/static/js/main.b41c8abe.chunk.js"
   },
   {
     "revision": "1c0aea058aa1e7f7a27b",
@@ -94,6 +94,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a93a155fd45ed4ac6f305e6d28e3bbc",
     "url": "/site/static/media/corona5.6a93a155.png"
+  },
+  {
+    "revision": "bffe21a9150dbd2ca1921bb0cfc89065",
+    "url": "/site/static/media/critc1.bffe21a9.png"
+  },
+  {
+    "revision": "c199b741d784ca8f4a4baf2915619447",
+    "url": "/site/static/media/critc2.c199b741.png"
+  },
+  {
+    "revision": "01c1fcdbab08af71878752620397481e",
+    "url": "/site/static/media/critc3.01c1fcdb.png"
   },
   {
     "revision": "bf67146bee9ddece720e869819bb63a4",
@@ -254,6 +266,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6493f3908b4022341122d9d6bb0a6e08",
     "url": "/site/static/media/spot7.6493f390.png"
+  },
+  {
+    "revision": "23daca3908238e28d77b41226e340236",
+    "url": "/site/static/media/twitterbot.23daca39.png"
+  },
+  {
+    "revision": "4738971fe9ddf298266fc217906633b0",
+    "url": "/site/static/media/twitterbot2.4738971f.png"
   },
   {
     "revision": "b8435e8eebeca2310398010e1909eadd",
