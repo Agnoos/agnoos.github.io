@@ -23,7 +23,7 @@ export default props =>
                 <Link className="" to="/hobbies/" ><a class="nav-link" >Hobbies</a></Link>
             </li>
             <li class="nav-item last" id="cv">
-                <a className="nav-link " href="https://drive.google.com/file/d/18NrUsy5_-ghzX4LpyT-cWBrKH91GGxDE/view" target="_blank">Baixar cv PDF</a>
+                <a className="nav-link " href="https://drive.google.com/file/d/18NrUsy5_-ghzX4LpyT-cWBrKH91GGxDE/view?usp=sharing" target="_blank">Baixar cv PDF</a>
             </li>
         </ul>
     </nav>
