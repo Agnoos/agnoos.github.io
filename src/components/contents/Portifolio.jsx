@@ -431,8 +431,8 @@ export default props =>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         React, JavaScript, Bootstrap, Font Awesome, React Router, ReactDom.
                                     </li>
-                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://agnoos.github.io/site/">Acessar Site</a></li>
-                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/site">Repositório GitHub</a></li>
+                                    <li class=""><i class="fab fa-internet-explorer info"></i><span className="info mx-1">Online:</span> <a className="noDecoration" target="_blank" href="https://agnoos.github.io/">Acessar Site</a></li>
+                                    <li class=""><i class="fab fa-github info"></i><span className="info mx-1">Git:</span> <a className="noDecoration" target="_blank" href="https://github.com/Agnoos/">Repositório GitHub</a></li>
 
                                 </ul>
 
