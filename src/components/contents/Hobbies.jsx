@@ -11,24 +11,12 @@ export default props =>
         </div>
 
         <hr />
-        <div className="col-12 text-center">
-            <div className="row">
-                <blockquote class="text-center blockquote my-2">
-                    <p class="mb-0 mx-5">Possuo um site especifico, onde escrevo sobre filmes, séries, música e política entre outras coisas, você pode acessar clicando aqui : <a target="_blank" className="text-pink" href="https://agnoos.com"><span className="text-pink">AGNOOS</span></a></p>
-                </blockquote>
-            </div>
-        </div>
-
-
-        <hr />
-
+      
         <div className="container mb-4">
+
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5">Jogos</h1>
-                </div>
-                <div className="col-12">
-                    <p className="text-justify">Cheguei a jogar torneios academicos de jogos competitivos, CS:GO e League of Legends, hoje não jogo no mesmo ritmo mas possuo ali, minhas maestrias rs, daqui que veio meu nome na internet, AGNOOS, uma abreviação pra como me chamavam, agnóstico, por seguir essa crença desde a época de Grand Chase e Mu Online.</p>
                 </div>
             </div>
 
@@ -42,7 +30,7 @@ export default props =>
                 <div className="col-md-3 col-6 text-center">
                     <h5 className="my-2">Counter Strike (PC)</h5>
                     <div class="card test" >
-                        <img class="card-img-top" src="https://www.gramno.com/image/cache/catalog/Products/cs-go-boosting-placement-min-1000x1000.jpg" alt="Card image cap" />
+                        <img class="card-img-top" src="https://ih1.redbubble.net/image.140256876.6040/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" alt="Card image cap" />
                     </div>
                 </div>
                 <div className="col-md-3 col-6 text-center">
@@ -66,10 +54,6 @@ export default props =>
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5">Filmes</h1>
-                </div>
-
-                <div className="col-12">
-                    <p className="text-justify">Sou apaixonado por cinema e arte, poderia passar horas e horas falando sobre influencias que tive de filmes que assisti durante minha vida. Enxergar o mundo através do autor é sair do seu e ser crítico sobre suas próprias convicções.</p>
                 </div>
             </div>
 
@@ -134,9 +118,6 @@ export default props =>
                     <h1 className="display-5">Música</h1>
                 </div>
 
-                <div className="col-12">
-                    <p className="text-justify">Passo boa parte do meu dia ouvindo músicas ou trilhas sonoras enquanto produzo, sinto a energia que me carrega em inspiração. Meus gostos se baseiam em grandes trilhas sonoras, rock e indie-rock.</p>
-                </div>
             </div>
 
             <div className="row text-center mt-2 mb-2">
@@ -220,9 +201,6 @@ export default props =>
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5">Trilhas sonoras</h1>
-                </div>
-                <div className="col-12">
-                    <p className="text-justify">Minha maior referência em arte de orquestra é Hans Zimmer, sinto que conseguiria combater um ataque alienígena ouvindo suas faixas....</p>
                 </div>
             </div>
 

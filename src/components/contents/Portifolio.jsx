@@ -220,10 +220,6 @@ export default props =>
             </div>
         </div>
 
-
-        <hr />
-
-
         <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
@@ -281,9 +277,6 @@ export default props =>
             </div>
         </div>
 
-
-        <hr />
-
         <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
@@ -336,8 +329,6 @@ export default props =>
             </div>
         </div>
 
-        <hr/>
-
         <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
@@ -385,9 +376,6 @@ export default props =>
                 </div>
             </div>
         </div>
-
-        hr
-
 
         <div className="container col-md-10 col-12">
             <div className="row ">
@@ -443,13 +431,6 @@ export default props =>
                 </div>
             </div>
         </div>
-
-
-
-
-
-        <hr />
-
 
         <div className="container col-md-10 col-12 mb-3">
             <div className="row ">

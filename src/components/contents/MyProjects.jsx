@@ -30,11 +30,11 @@ export default props =>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
-                                <h4 className="card-title">Analista Desenvolvedor</h4>
+                                <h4 className="card-title">Desenvolvedor de Software</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Agosto 2020 - Atualmente</h6>
                                 <ul className="my-list">
-                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Análisar especificações funcionáis e desenvolver soluções claras, limpas e dentro das mais atuais métodologia de desenvolvimento de software. </li>
-                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Agile / Scrum</li>
+                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Desenvolver funcionalidades em soluções voltadas a Georreferenciamento no setor de utilities.</li>
+                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Agile</li>
                                     <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
 
                                 </ul>
@@ -56,10 +56,10 @@ export default props =>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
-                                <h4 className="card-title">Professor</h4>
+                                <h4 className="card-title">Instrutor de TI</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Agosto 2019 - Março 2020</h6>
                                 <ul className="my-list">
-                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Administração da identidade visual da empresa, criação de logos, edição de conteúdo para mídias digitais e físicas, professor de desenvolvimento web.</li>
+                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Professor de Design web, e desenvolvimento em JavaScript e suas bibliotecas.</li>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>                                
                                     <img className="img-psd mb-1" src={psd} alt="psd" />
                                     <img className="img-psd mb-1 ml-1" src={camt} alt="camtasia" />
@@ -86,16 +86,16 @@ export default props =>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
-                                <h4 className="card-title">Estágiario</h4>
+                                <h4 className="card-title">Estagiário</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Março 2019 - Agosto 2019</h6>
                                 <ul className="my-list">
-                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Desenvolvimento para adequação a projetos de arquitetura microservices.</li>
+                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Estagiário em desenvolvimento front-end</li>
                                     <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
                                         <i class="fab fa-bootstrap text-bootstrap mr-1" aria-hidden="true"></i>
                                         <i class="fab fa-node text-node mr-1" aria-hidden="true"></i>
                                         <i class="fab fa-react text-react mr-1" aria-hidden="true"></i>
                                     </li>
-                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Scrum usando Trello e Slack</li>
+                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Agile</li>
                                     <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Hortolândia-SP</li>
 
                                 </ul>
@@ -120,8 +120,7 @@ export default props =>
                                 <h6 class="card-subtitle mb-2 text-muted">Junho 2018 - Janeiro 2019</h6>
                                 <ul className="my-list">
                                     <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Configurações de computadores e sistemas integrados.</li>
-                                    <li class="job"><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Operações:</span>Embarcados, pacotes de saúde, SOs, telecomunicações, Suporte técnico, etc. </li>
-                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Miscelânea:</span>Levantamento de requisitos operacionais.</li>
+                                    <li class="job"><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Operações:</span>Embarcados, SOs, telecomunicações, Suporte técnico, etc. </li>
                                     <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
 
                                 </ul>
