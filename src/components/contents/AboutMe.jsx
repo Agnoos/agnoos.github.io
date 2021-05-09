@@ -4,6 +4,7 @@ import './AboutMe.css'
 import psd from '../../assets/icon/psd.png'
 import camt from '../../assets/icon/camt.png'
 import me from '../../assets/img/me.jpeg'
+import me2 from '../../assets/img/me2.png'
 import pucc from '../../assets/img/pucc.jpg'
 import customcandy from '../../assets/img/customcandy.jpg'
 import admetec from '../../assets/img/admetec.jpg'
@@ -19,7 +20,7 @@ export default props =>
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
                         <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12">
-                            <img src={me} class="card-img me-card-about " alt="Eu"></img>
+                            <img src={me2} class="card-img me-card-about " alt="Eu"></img>
                         </div>
                         <div className="col-md-7">
                             <div className="card-body">
@@ -56,8 +57,8 @@ export default props =>
                 </div>
 
                 <div className="col-12">
-                    <p className="text-justify artigo">Developer júnior, trabalhando na área de TI desde os 17 anos, quando dei inicio ao curso técnico de analise e desenvolvimento de sistemas em 2016, posteriormente ingressando na graduação em tecnologia da informação pela PUC-Campinas, onde me formo ao final de 2021.</p>
-                    <p className="text-justify artigo mt-2">Trabalhei nas mais váriadas áreas de TI, já prestei suporte, estagiário em testes, freelancer, help desk, e agora estou como desenvolvedor. Pretendo construir carreira na área, assumindo responsabilidades e superando obstáculos.</p>
+                    <p className="text-justify artigo">Trabalho na área de TI desde os 17 anos, quando dei inicio ao curso técnico de analise e desenvolvimento de sistemas em 2016, posteriormente ingressando na graduação em tecnologia da informação pela PUC-Campinas, onde me formo ao final de 2021.</p>
+                    <p className="text-justify artigo mt-2">Trabalhei nas mais váriadas áreas de TI, já prestei suporte, estagiário em testes, freelancer, help desk e estou como desenvolvedor a um ano.</p>
                     <p className="text-justify artigo mt-4">Se não estiver codando, estou assistindo um filme, jogando um video game ou ouvindo música, sou apaixonado por cinema e arte, e passo meu tempo livre escrevendo sobre eles.</p>
                 </div>
 
