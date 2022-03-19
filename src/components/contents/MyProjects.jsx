@@ -9,6 +9,8 @@ import psd from '../../assets/icon/psd.png'
 import camt from '../../assets/icon/camt.png'
 import figma from '../../assets/icon/figma.png'
 
+import codex from '../../assets/img/codex.png'
+
 
 export default props =>
     <Content>
@@ -17,6 +19,37 @@ export default props =>
 
             <h1 className="display-4">Experiência</h1>
 
+        </div>
+
+        <hr />
+
+
+        <div className="container">
+            <div className="row ">
+                <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-xl-3 my-md-3 mt-2 col-12 ">
+                            <img src={codex} class="card-img me-card-about" alt="Eu"></img>
+                        </div>
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h4 className="card-title">Desenvolvedor de Software</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Janeiro 2022 - Atual</h6>
+                                <ul className="my-list">
+                                    <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Desenvolvimento e manutenção de sistemas WEB e aplicativos de mobilidade atendendo o setor Publico/Privado.</li>
+                                    <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                        <i class="fab fa-android text-success mr-1 " aria-hidden="true" > Kotlin</i>
+                                        <i class="fab fa-react text-react mr-1" aria-hidden="true"> React</i>
+                                        <i class="fab fa-js text-warning mr-1" aria-hidden="true"> Javascript</i>
+                                    </li>
+                                    <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <hr />
@@ -31,10 +64,14 @@ export default props =>
                         <div className="col-md-7">
                             <div className="card-body">
                                 <h4 className="card-title">Desenvolvedor de Software</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Agosto 2020 - Atualmente</h6>
+                                <h6 class="card-subtitle mb-2 text-muted">Agosto 2020 - Janeiro 2022</h6>
                                 <ul className="my-list">
                                     <li class="job"><i class="fa fa-cogs info" aria-hidden="true"></i><span className="info mx-1">Função:</span>Desenvolver funcionalidades em soluções voltadas a Georreferenciamento no setor de utilities.</li>
-                                    <li class="job"><i class="fa fa-bullseye info" aria-hidden="true"></i><span className="info mx-1">Métodologias:</span>Agile</li>
+                                    <li class=""><i class="fa fa-star info" aria-hidden="true"></i><span className="info mx-1">Stack:</span>
+                                        <i class="fab fa-java text-danger mr-1 " aria-hidden="true" > Java</i>
+                                        <i class="fab fa-android text-success mr-1 " aria-hidden="true" > Kotlin</i>
+                                        <i class="fab fa-js text-warning mr-1" aria-hidden="true"> Javascript</i>
+                                    </li>
                                     <li class=""><i class="fa fa-map info"></i><span className="info mx-1">Location:</span>Campinas-SP</li>
 
                                 </ul>

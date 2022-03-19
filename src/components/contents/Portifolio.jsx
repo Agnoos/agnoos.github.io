@@ -277,7 +277,7 @@ export default props =>
             </div>
         </div>
 
-        <div className="container col-md-10 col-12">
+        {/* <div className="container col-md-10 col-12">
             <div className="row ">
                 <div class="card col-12 col-md-10 col-xl-12 mx-md-3 mt-md-2 ">
                     <div class="row no-gutters">
@@ -327,7 +327,7 @@ export default props =>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="container col-md-10 col-12">
             <div className="row ">

@@ -15,11 +15,9 @@ export default props =>
         <div className="container mb-4">
 
 
-                <blockquote class="text-center blockquote my-2">
+                {/* <blockquote class="text-center blockquote my-2">
                     <p class="mb-0 mx-5">Gosto de escrever no meu blog as vezes: <a target="_blank" className="text-pink" href="https://agnoos.com"><span className="text-pink">agnoos.com</span></a></p>
-                </blockquote>
-
-            <hr/>
+                </blockquote> */}
 
             <div className="row">
                 <div className="col-12">

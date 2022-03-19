@@ -7,7 +7,6 @@ export default props =>
         <div className="container">
             <div class="mt-3">
                 <ul class="">
-                    <li class="list-inline-item"><a href="https://www.facebook.com/agnoos" target="_blank"><i class="fab fa-facebook"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/Agnoos_" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/Agnoos" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/ricardo-lucass/" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
