@@ -61,7 +61,7 @@ export default props =>
                 <div className="col-12">
                     <p className="text-justify artigo">Me chamo Lucas, tenho 21 anos, sou natural da capital de São Paulo, vivendo na região de Campinas, mais precisamente em Hortolândia há 8 anos. Solteiro, gosto de passar meu tempo livre assistindo filmes, jogando ou com os amigos.</p>
                     <p className="text-justify artigo mt-2">Estudei em escola técnica e terminei meu ensino médio juntamente ao ensino técnico em Análise e desenvolvimento de Sistemas em 2017, posteriormente ingressando no ensino superior onde me formei no final de 2021.</p>
-                    <p className="text-justify artigo mt-2">Tenho ampla experiência em soluções da área de utilities e serviços públicos, vivência de três anos no desenvolvimento e manutenção dos produtos de georreferenciamento e financeiro.</p>
+                    <p className="text-justify artigo mt-2">Tenho experiência em soluções da área de utilities e serviços públicos, vivência de três anos na manutenção de produtos de georreferenciamento.</p>
                     <p className="text-justify artigo mt-2">Experiência de desenvolvimento em Java, Kotlin, Javascript, e Typescript.</p>
                 </div>
 

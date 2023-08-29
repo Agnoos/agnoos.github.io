@@ -48,8 +48,10 @@ export default props =>
         <div className="container-fluid text-center my-2">
 
             <h1 className="display-4">Portfólio</h1>
+            <span className='lucas'>Atualizado em 2021</span>
 
         </div>
+        
 
         <hr />
         <div className="container col-md-10 col-12 mb-3">

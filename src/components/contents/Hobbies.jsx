@@ -22,10 +22,14 @@ export default props =>
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5">Jogos</h1>
+                    <span><a href="https://steamcommunity.com/id/Agnoos">Steam</a></span>
                 </div>
             </div>
 
             <div className="row text-center mt-2">
+
+                
+
                 <div className="col-md-3 col-6 text-center">
                     <h5 className="my-2">Dark Souls III (PC)</h5>
                     <div class="card test" >
@@ -243,41 +247,6 @@ export default props =>
             </div>
 
 
-        </div>
-
-        <hr />
-
-        <div className="container mb-4">
-            <div className="row">
-                <div className="col-12">
-                    <h1 className="display-5">Livros</h1>
-                </div>
-            </div>
-
-            <hr />
-
-            <div className="row text-center mt-2">
-                <div className="col-md-3 col-6 text-center">
-                    <div class="card test mt-2" >
-                        <img class="card-img-top" src="https://livrariacultura.vteximg.com.br/arquivos/ids/16373959-1000-1000/42865102.jpg?v=637193705409800000" alt="Card image cap" />
-                    </div>
-                </div>
-                <div className="col-md-3 col-6 text-center">
-                    <div class="card test mt-2" >
-                        <img class="card-img-top" src="https://livrofacil.vteximg.com.br/arquivos/ids/238535-1000-1000/9788571646063.jpg?v=636867201691370000" alt="Card image cap" />
-                    </div>
-                </div>
-                <div className="col-md-3 col-6 text-center">
-                    <div class="card test mt-2" >
-                        <img class="card-img-top" src="https://livrariacultura.vteximg.com.br/arquivos/ids/14679319-1000-1000/2010566253.jpg?v=637061450665070000" alt="Card image cap" />
-                    </div>
-                </div>
-                <div className="col-md-3 col-6 text-center">
-                    <div class="card test mt-2" >
-                        <img class="card-img-top" src="https://images-submarino.b2w.io/produtos/imagens/121595813/121595821_1SZ.jpg" alt="Card image cap" />
-                    </div>
-                </div>
-            </div>
         </div>
 
     </Content>
