@@ -55,7 +55,7 @@ export default props =>
         <div className="container  mt-2 mb-4">
             <div className="row">
                 <div className="col-12">
-                    <h1 className="display-4">Sobre</h1>
+                    <h1 className="display-4">Sobreeeeee</h1>
                 </div>
 
                 <div className="col-12">
